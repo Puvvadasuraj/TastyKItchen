@@ -1,0 +1,146 @@
+.imageContainer {
+  background-color: #333333;
+  padding: 12px;
+  padding-left: 65px;
+  padding-right: 25px;
+  height: fit-content;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.contentContainer {
+  padding-left: 12px;
+}
+
+.hotelItemImg {
+  padding-right: 25px;
+  height: 200px;
+  border-radius: 12px;
+}
+
+.hotelHead {
+  padding: 0px;
+  margin: 0px;
+  font-size: 36px;
+}
+
+.hotelParaItem {
+  padding: 0px;
+  padding-top: 10px;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.ratingContainerItem {
+  padding: 0px;
+  margin: 0px;
+  margin-right: 25px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ratingValue {
+  padding-left: 5px;
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.spanColour {
+  color: #cced5f;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+.verticalItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.leftItem {
+  padding-right: 20px;
+}
+
+.hrItem {
+  height: 45px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.costItem {
+  padding: 0px;
+  margin: 0px;
+}
+
+.costItemContainer {
+  margin-left: 25px;
+}
+
+.eachItemUlContainer {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .imageContainer {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .hotelItemImg {
+    position: relative;
+    width: 201px;
+    height: 201px;
+    left: -68px;
+    top: -52px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 133.981px;
+    margin-top: 55px;
+  }
+  .contentContainer {
+    padding: 0px;
+    margin: 0px;
+    padding-right: 35px;
+  }
+  .hotelHead {
+    font-size: 16px;
+  }
+  .hotelParaItem {
+    font-size: 12px;
+  }
+  .costItemContainer {
+    margin-left: 12px;
+  }
+  .costItem {
+    font-size: 12px;
+  }
+  .ratingContainerItem {
+    padding: 0px;
+    margin: 0px;
+    line-height: 0px;
+  }
+  .ratingValue {
+    font-size: 12px;
+  }
+
+  .eachItemUlContainer {
+    padding: 12px;
+    padding-left: 150px;
+  }
+}

@@ -1,0 +1,90 @@
+.homeClass {
+  margin-top: 30px;
+  margin-left: 95px;
+  margin-right: 80px;
+  margin-bottom: 30px;
+}
+
+.popR {
+  color: #183b56;
+  font-family: 'DM Sans';
+  font-weight: bold;
+}
+
+.caption {
+  color: #64748b;
+  font-weight: 500;
+  font-family: 'DM Sans';
+}
+
+.lineContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sortOption {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #475569;
+  font-weight: 500;
+  font-family: 'DM Sans';
+}
+
+.sortLogo {
+  margin-right: 12px;
+}
+
+.sortBox {
+  border: none;
+  color: #475569;
+  font-weight: 500;
+  font-family: 'DM Sans';
+  padding: 12px;
+}
+
+.sortItem {
+  color: #475569;
+  padding: 25px;
+  margin: 25px;
+  font-weight: bold;
+}
+
+.input {
+  margin-right: 18px;
+  font-weight: bold;
+  border: none;
+  padding: 8px;
+}
+
+.containerInput {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: black solid 2px;
+  border-radius: 12px;
+  margin-right: 12px;
+}
+
+.iContainer {
+  background-color: #dce6e2;
+  color: #0f172a;
+  padding-left: 8px;
+  font-size: 35px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  color: white;
+}
+
+@media screen and (max-width: 578px) {
+  .homeClass {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+  }
+}

@@ -1,0 +1,185 @@
+.cartItemsDisplay {
+  background-color: #f8fafc;
+  margin: 60px;
+  width: 80vw;
+}
+
+.cartHead {
+  font-family: 'DM Sans';
+  color: #475569;
+  font-weight: bold;
+}
+
+.headContainer {
+  padding-left: 75px;
+  padding-right: 75px;
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cartMainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.noOrderHead {
+  font-family: 'DM Sans';
+  font-weight: 500;
+  color: #1e293b;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.noOrdersContainer {
+  height: 70vh;
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.noImg {
+  height: 307px;
+  width: 400px;
+  padding: 25px;
+}
+
+.noPara {
+  color: #64748b;
+  font-weight: 400;
+  font-family: 'DM Sans';
+  font-size: 16px;
+  line-height: 0px;
+  margin-bottom: 35px;
+}
+
+.orderBut {
+  color: white;
+  background-color: #f7931e;
+  padding: 12px;
+  margin-bottom: 35px;
+  font-weight: bold;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.cartUlContainer {
+  list-style-type: none;
+}
+
+.orderPlacedText {
+  font-family: 'Roboto';
+  font-size: 24px;
+  line-height: 0px;
+}
+
+.hrLine {
+  margin-left: 75px;
+  margin-right: 75px;
+  border-top: 3px dashed #cbd2d9;
+}
+
+.orderTotal {
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #3e4c59;
+}
+
+.totalContainer {
+  margin-top: 50px;
+  margin-left: 75px;
+  margin-right: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+
+.total {
+  color: #3e4c59;
+  font-weight: bold;
+  font-family: 'DM Sans';
+}
+
+.orderBut {
+  color: white;
+  font-weight: bold;
+  background-color: #f7931e;
+  border-radius: 12px;
+  padding: 12px;
+  border: none;
+}
+
+.paymentSuccessful {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+.insidePayment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 0px;
+}
+
+.goHomeBut {
+  outline: none;
+  cursor: pointer;
+  color: white;
+  background-color: #f7931e;
+  border-radius: 12px;
+  border: none;
+  padding: 12px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .headContainer {
+    display: none;
+  }
+  .cartUlContainer {
+    margin: 0px;
+  }
+  .cartItemsDisplay {
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+  }
+  .totalContainer {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+  }
+  .hrLine {
+    margin: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .orderTotal {
+    font-weight: 500;
+    font-size: 22px;
+  }
+  .orderBut {
+    padding: 10px;
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .total {
+    width: 100%;
+  }
+}

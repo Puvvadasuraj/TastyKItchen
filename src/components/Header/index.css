@@ -1,0 +1,141 @@
+.headerHead {
+  color: #f7931e;
+  font-family: 'Roboto';
+  padding-left: 30px;
+  font-weight: bold;
+  font-size: 24px;
+  outline: none;
+  cursor: pointer;
+}
+
+.homeBut {
+  color: #f7931e;
+  font-family: 'Roboto';
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: bold;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+}
+
+.cart {
+  color: #334155;
+  font-family: 'Roboto';
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: bold;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+}
+
+.headerContainer {
+  background-color: #f8fafc;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.headerButtons {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logout {
+  color: white;
+  font-weight: bold;
+  background-color: #f7931e;
+  font-size: 12px;
+  border: none;
+  padding: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 12px;
+  outline: none;
+  cursor: pointer;
+}
+
+.linkItem {
+  text-decoration: none;
+}
+
+.tastyHead {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mobileImgContainer {
+  display: none;
+}
+
+.mobileImgItem {
+  height: 40px;
+  padding: 0px;
+}
+
+.three {
+  padding-right: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.popContainer {
+  width: 100%;
+}
+
+.buttonItemMobile {
+  background-color: transparent;
+  border: none;
+}
+
+.closeContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.closeItem {
+  padding-right: 12px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .headerContainer {
+    display: none;
+  }
+
+  .mobileImgContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8fafc;
+  }
+
+  .headerButtonsMobile {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .headerButtons {
+    list-style-type: none;
+  }
+}

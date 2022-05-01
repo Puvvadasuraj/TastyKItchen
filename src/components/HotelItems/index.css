@@ -1,0 +1,148 @@
+.appsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failurePage {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'DM Sans';
+}
+
+.failureHead {
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.failPara {
+  color: #475569;
+  font-weight: 400;
+}
+
+.caption {
+  font-size: 16px;
+}
+
+.retryButton {
+  color: white;
+  font-weight: bold;
+  background-color: #f7931e;
+  border-radius: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: none;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+}
+
+.successContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sortBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pageNo {
+  color: #334155;
+  font-weight: bold;
+  padding: 12px;
+}
+
+.popR {
+  font-size: 32px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  line-height: 0px;
+}
+
+.sortElementBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pageContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  cursor: pointer;
+}
+
+.sortHeader {
+  display: flex;
+  flex-direction: column;
+}
+
+.sortLogo {
+  font-size: 16px;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .sortBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .sortHeader {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .caption {
+    width: 80vw;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .popR {
+    padding-bottom: 20px;
+    font-size: 24px;
+  }
+
+  .containerInput {
+    margin-top: 25px;
+  }
+
+  .sortElementBox {
+    margin-top: 15px;
+  }
+
+  .sortOptionBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .successContainer {
+    padding: 0px;
+    margin: 0px;
+  }
+}

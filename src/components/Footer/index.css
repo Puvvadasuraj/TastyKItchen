@@ -1,0 +1,76 @@
+.footerContainer {
+  background-color: #0f172a;
+  color: white;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+
+.footerPara {
+  padding: 0px;
+  margin: 0px;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
+
+.footerHead {
+  font-family: 'Roboto';
+  font-size: 32px;
+}
+
+.pinContainer {
+  background-color: white;
+  color: #0f172a;
+  font-size: 18px;
+  padding: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 8px;
+  padding-bottom: 2px;
+  margin: 12px;
+}
+
+.footerIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footerIcon {
+  font-size: 30px;
+  margin: 12px;
+}
+
+.footerChef {
+  color: white;
+  background-color: white;
+}
+
+.footerTastyContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerTastyHead {
+  padding-right: 12px;
+  height: 38px;
+}
+
+@media screen and (max-width: 768px) {
+  .footerHead {
+    font-size: 20px;
+  }
+
+  .footerPara {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}

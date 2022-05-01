@@ -1,0 +1,85 @@
+.cartItemImg {
+  height: 100px;
+  width: 120px;
+  border-radius: 12px;
+}
+
+.liContainer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 95px;
+  width: 76vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.totalCount {
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+.imgContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cartItemName {
+  padding-left: 18px;
+  font-size: 20px;
+  font-family: 'DM Sans';
+  font-weight: 500;
+  color: #183b56;
+  max-width: 130px;
+}
+
+.mobileCartName {
+  display: none;
+}
+
+.itemCountContainer {
+  padding-right: 120px;
+}
+
+.cartNameCost {
+  color: #ffa412;
+  font-weight: 700;
+  font-family: 'DM Sans';
+  font-size: 16px;
+}
+
+.detailsContainer {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .liContainer {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .detailsContainer {
+    text-align: start;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .cartItemName {
+    width: 125px;
+    font-family: 'DM Sans';
+  }
+
+  .itemCountContainer {
+    padding-right: 0px;
+    line-height: 0px;
+  }
+}

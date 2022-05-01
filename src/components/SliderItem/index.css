@@ -1,0 +1,13 @@
+.sliderImage {
+  height: 250px;
+  width: 100vw;
+}
+
+@media screen and (max-width: 768px) {
+  .sliderImage {
+    width: 100vw;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+  }
+}

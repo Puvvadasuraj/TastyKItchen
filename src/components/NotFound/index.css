@@ -1,0 +1,32 @@
+.notFoundContainer {
+  padding: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.notFoundHead {
+  color: #1e293b;
+  font-weight: 700;
+  font-family: 'DM Sans';
+  font-size: 32px;
+}
+
+.notFoundPara {
+  color: #475569;
+  font-weight: bold;
+}
+
+.notFoundBut {
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  background-color: #f7931e;
+  outline: none;
+  cursor: pointer;
+}

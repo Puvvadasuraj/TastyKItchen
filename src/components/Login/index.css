@@ -1,0 +1,152 @@
+.mainComponent {
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginHead {
+  font-family: 'Roboto';
+  color: #f7931e;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.loginText {
+  font-size: 32px;
+  font-family: 'Roboto';
+}
+
+.loginBox {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 20vw;
+}
+
+.but {
+  color: white;
+  background-color: #f7931e;
+  font-weight: bold;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 12px;
+  outline: none;
+  cursor: pointer;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 12px;
+  flex-shrink: 0;
+}
+
+.username {
+  color: black;
+  font-weight: bold;
+  padding: 2px;
+}
+
+.inputContainer {
+  margin: 10px;
+  padding: 5px;
+  background-color: #e6ffe6;
+  border: none;
+}
+
+.loginPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 12px;
+  align-items: center;
+}
+
+.mobileLoginPage {
+  display: none;
+  flex-direction: column;
+}
+
+.loginImg {
+  height: 100vh;
+  width: 60vw;
+}
+
+.mobileLoginHead {
+  font-weight: 500;
+  font-family: 'DM Sans';
+}
+
+.mobileImg {
+  padding-left: 400px;
+  height: 407px;
+}
+
+.mobileLoginContainer {
+  padding-top: 450px;
+  padding-left: 20px;
+  padding-right: 0px;
+}
+
+.errorMsg {
+  color: red;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.mobileHead {
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-left: 12px;
+}
+
+.mobileFormContainer {
+  width: 70vw;
+}
+
+@media screen and (max-width: 768px) {
+  .loginImg {
+    align-self: flex-start;
+    height: 387px;
+    border-top-left-radius: 250px;
+    border-bottom-left-radius: 255px;
+    border-bottom-right-radius: 249px;
+  }
+
+  .loginBox {
+    box-shadow: none;
+    padding-top: 450px;
+  }
+
+  .loginText {
+    font-size: 24px;
+  }
+
+  .loginHead {
+    display: none;
+  }
+  .loginLogo {
+    display: none;
+  }
+
+  .inputContainer {
+    width: 40vw;
+  }
+
+  .formContainer {
+    padding-left: 30px;
+  }
+}

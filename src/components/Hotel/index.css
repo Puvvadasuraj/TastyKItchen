@@ -1,0 +1,83 @@
+.hotelImg {
+  height: 120px;
+  width: 200px;
+  padding-right: 12px;
+  border-radius: 12px;
+}
+
+.hotelContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  margin-right: 24px;
+  margin-left: 29px;
+  outline: none;
+  cursor: pointer;
+}
+
+.textContainer {
+  width: 174px;
+}
+
+.hotelName {
+  font-size: 18px;
+  font-weight: 700;
+  color: #334155;
+}
+
+.hotelPara {
+  color: #64748b;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.ratingContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  line-height: 0px;
+  padding: 0px;
+  margin: 0px;
+  color: #1e293b;
+  font-weight: bold;
+}
+
+.ratingItem {
+  font-size: 14px;
+}
+
+.totalReviews {
+  color: #64748b;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.hotelLink {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 578px) {
+  .hotelContainer {
+    margin: 0px;
+    margin-bottom: 45px;
+    padding: 0px;
+  }
+
+  .hotelName {
+    font-size: 16px;
+  }
+
+  .hotelImg {
+    height: 100px;
+    width: 160px;
+  }
+
+  .hotelPara {
+    font-size: 12px;
+  }
+}

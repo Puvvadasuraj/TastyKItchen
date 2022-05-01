@@ -1,0 +1,10 @@
+.sliderContainer {
+  margin-left: 95px;
+  margin-right: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .sliderContainer {
+    margin: 0px;
+  }
+}
